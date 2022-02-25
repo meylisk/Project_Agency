@@ -42,13 +42,15 @@ li:hover{
     color: rgb(230, 204, 4);
 }
 header{
-    height: 450px;
+    margin-top: 45px;
+    height: 358px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    font-weight: bolder;
 }
 header h4{
     margin-bottom: 30px;
