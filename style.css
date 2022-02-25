@@ -8,7 +8,7 @@
 body{
     position: relative;
     margin-top: 0;
-    box-sizing: border-box;
+ 
 
 }
 .ulianaContainer{
@@ -100,9 +100,10 @@ header button:hover{
 }
 /* start section portfolio */
 #portfolio {
-    background-color: rgba(248, 248, 255, 0.795);
+    background-color: rgb(238, 240, 240);
     line-height: 1.5;
     text-align: center; 
+  
 }
 img{
     object-fit: cover;
@@ -192,7 +193,7 @@ img{
 
 @media (min-width: 1000px){
     body{
-        background-color: rgb(58, 56, 56);
+        background-color: rgb(4, 4, 4);
     }
     .ulianaContainer{
         width: 1000px;
