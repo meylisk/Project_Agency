@@ -10,17 +10,22 @@
     object-fit: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    
 }
 nav h4{
     padding: 20px 20px;
     color: rgb(255, 225, 0);
     font-size: 14px;
     letter-spacing: 1px;
+
+
 }
 nav{
     display: flex;
     height: 35px;
     margin-right: 5px;
+
+ 
     
 }
 ul{
@@ -31,6 +36,7 @@ ul{
     justify-content:flex-end;
     font-size: 10px;
     align-items: flex-end;
+    
   
 
 }
@@ -74,5 +80,12 @@ header button{
 header button:hover{
     color: rgb(230, 204, 4);
     background-color: white;
+
+}
+@media (min-width: 1000px){
+    body{
+        background-color: rgb(58, 56, 56);
+    }
+    
 
 }
