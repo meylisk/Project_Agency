@@ -131,16 +131,16 @@ img{
     position: relative;
     background-color: white;
     width: 100%;
-    margin: 20px;
+    margin: 10px;
 }
 
 .card img {
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
 .content {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .icon {
@@ -167,7 +167,7 @@ img{
         justify-content: center;
     }
     .card {
-        width: 50%;
+        width: 30%;
     }
 }
 
@@ -187,11 +187,11 @@ img{
         background-color: rgb(58, 56, 56);
     }
     .ulianaContainer{
-        width: 900px;
+        width: 1000px;
         margin: 0 auto;
     }
     nav{
-        width: 900px;
+        width: 1000px;
     }
 
 }
