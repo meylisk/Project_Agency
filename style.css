@@ -91,6 +91,12 @@ body{
     background-color: white;
 }
 
+.services svg{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+}
+
 /* start section portfolio */
 #portfolio {
     background-color: rgba(248, 248, 255);
