@@ -208,26 +208,44 @@ form{
 }
 footer{
     background-color: white;
+
 }
 .asel-container ul li{
     list-style-type: none;
-    display: inline;
-    padding-right: 8px;
+}
+
+.media{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
 }
 .asel-container svg{
-    margin-right:10px ;
+margin-right: 11px;
+margin-bottom: 10px;
+
+  
 }
 
 .copyright{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
     font-size: 14px;
+    padding-bottom: 10px;
+  
 }
+.copyright ul{
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
 
 .underline{
     text-decoration: none;
+
 }
 .underline:hover{
     text-decoration: underline;
@@ -284,7 +302,27 @@ footer{
   
 
     }
+    .asel-container ul li{
+        list-style-type: none;
+        display: inline;
+        width: 30%;
+    }
+    .media{
+     display: flex;
+     justify-content: center;
+    }
+    .copyright ul{
+        margin-left: 0;
+        padding-left: 0;
     
+    }
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
 }
 
 @media (min-width: 1200px) {
