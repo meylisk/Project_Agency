@@ -343,10 +343,8 @@ footer .media a:hover{
 
 
 
-@media (min-width: 577px) {
-=======
 @media (min-width: 567px) {
->>>>>>> main
+
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -378,8 +376,6 @@ footer .media a:hover{
   
 
     }
-<<<<<<< HEAD
-=======
     .asel-container ul li{
         list-style-type: none;
         display: inline;
@@ -401,7 +397,6 @@ footer .media a:hover{
 
 
     }
->>>>>>> main
     .services{
       height: auto;
       width: 100%;
@@ -415,7 +410,7 @@ footer .media a:hover{
         align-items: center;
         width: 100%;
     }
-<<<<<<< HEAD
+
     .ecommerce,.responsive, .web{
         padding: 0 20px;
     }
@@ -430,7 +425,7 @@ footer .media a:hover{
     /* body{
         background-color: rgb(4, 4, 4);
     } */
-=======
+
 
     .ecommerce ,.responsive, .web{
         padding: 0 20px;
@@ -440,7 +435,7 @@ footer .media a:hover{
 
 }
 @media (min-width: 1000px){
->>>>>>> main
+
     .ulianaContainer{
         width: 100vw;
         margin: 0 auto;
@@ -457,16 +452,16 @@ footer .media a:hover{
     }
     .services .icons{
         width: 90%;
-<<<<<<< HEAD
+
     }
-=======
+
      }
 }  
 
     
 
 @media (min-width: 1200px) {
->>>>>>> main
+
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -479,7 +474,7 @@ footer .media a:hover{
     }
     .services .icons{
         width:75%;
-<<<<<<< HEAD
+
     }
     #team-container .team-card {
         display: inline-block;
@@ -502,8 +497,4 @@ footer .media a:hover{
     }
 
 }
-=======
->>>>>>> main
 
-     }
-}
