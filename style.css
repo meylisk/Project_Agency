@@ -8,6 +8,8 @@
 body{
     position: relative;
     margin-top: 0;
+ 
+
 }
 .ulianaContainer{
     width: 100vw;
@@ -16,8 +18,9 @@ body{
     object-fit: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding-top: 20px; 
+    padding-top: 20px;
     margin-bottom: 10px;
+  
 }
 .ulianaContainer nav h4{
     padding-top: 5px;
@@ -31,7 +34,8 @@ body{
     z-index: 2;
     width: 100%;
     display: flex;
-    height: 35px;
+    height: 35px;    
+
 }
 .ulianaContainer ul{
     color: white;
@@ -271,6 +275,7 @@ footer{
 
 
 
+<<<<<<< HEAD
 /* Meylis Section Starts Here */
 #team-container {
     padding: 6rem 0;
@@ -339,6 +344,9 @@ footer .media a:hover{
 
 
 @media (min-width: 577px) {
+=======
+@media (min-width: 567px) {
+>>>>>>> main
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -367,10 +375,37 @@ footer .media a:hover{
     .form-container{
         grid-template-columns: 300px 300px;
         grid-template-rows: 20px 20px 20px 20px;
+  
+
     }
+<<<<<<< HEAD
+=======
+    .asel-container ul li{
+        list-style-type: none;
+        display: inline;
+        width: 30%;
+    }
+    .media{
+     display: flex;
+     justify-content: center;
+    }
+    .copyright ul{
+        margin-left: 0;
+        padding-left: 0;
+    
+    }
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+>>>>>>> main
     .services{
       height: auto;
-      width: 100%;      
+      width: 100%;
+      
     }
     .services .icons{
         margin: auto;
@@ -380,6 +415,7 @@ footer .media a:hover{
         align-items: center;
         width: 100%;
     }
+<<<<<<< HEAD
     .ecommerce,.responsive, .web{
         padding: 0 20px;
     }
@@ -394,9 +430,21 @@ footer .media a:hover{
     /* body{
         background-color: rgb(4, 4, 4);
     } */
+=======
+
+    .ecommerce ,.responsive, .web{
+        padding: 0 20px;
+
+    }
+   
+
+}
+@media (min-width: 1000px){
+>>>>>>> main
     .ulianaContainer{
-        width: 1000px;
+        width: 100vw;
         margin: 0 auto;
+        background-size: cover;
     }
     nav{
         width: 1000px;
@@ -404,10 +452,21 @@ footer .media a:hover{
     .form-container{
         grid-template-columns: 400px 400px;
         grid-template-rows: 20px 20px 20px 20px;
+  
+
     }
     .services .icons{
         width: 90%;
+<<<<<<< HEAD
     }
+=======
+     }
+}  
+
+    
+
+@media (min-width: 1200px) {
+>>>>>>> main
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -420,6 +479,7 @@ footer .media a:hover{
     }
     .services .icons{
         width:75%;
+<<<<<<< HEAD
     }
     #team-container .team-card {
         display: inline-block;
@@ -442,4 +502,8 @@ footer .media a:hover{
     }
 
 }
+=======
+>>>>>>> main
 
+     }
+}
