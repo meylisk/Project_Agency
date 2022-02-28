@@ -379,8 +379,10 @@ margin-bottom: 10px;
         background-color: rgb(4, 4, 4);
     }
     .ulianaContainer{
-        width: 1000px;
+        width: 100vw;
         margin: 0 auto;
+       
+        background-size: cover;
     }
     nav{
         width: 1000px;
