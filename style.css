@@ -342,7 +342,7 @@ footer .media a:hover{
 
 
 
-@media (min-width: 567px) {
+@media (max-width: 567px) {
 
     #portfolio .gallery {
         flex-direction: row;
@@ -358,6 +358,43 @@ footer .media a:hover{
         justify-content: center;
         align-items: center;
     }
+    /* Asel's mobile version */
+    form{
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+        height: 60%; 
+        margin-right: 10px;  
+    }
+    .contact-us{
+        height: 700px;
+    }
+    .form-container{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 15px 15px 15px 15px; 
+    }
+
+    .name{
+        width: 90%;
+        position: absolute; 
+        top: 10px;
+        left: 50px;
+    }
+
+    .message{
+        width: 90%;
+        position: absolute;
+        top: 235px; 
+        left: 5px;
+    }
+    .asel-container button{
+        position: absolute;
+        top: 390px;
+        left: 180px;  
+    }
+    /* End of Asel's mobile */
+
 }
 
 @media (min-width: 768px) {
