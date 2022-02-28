@@ -438,7 +438,10 @@ footer .media a:hover{
         background-size: cover;
     }
     nav{
-        width: 1000px;
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+  
     }
     .form-container{
         grid-template-columns: 400px 400px;
@@ -489,6 +492,9 @@ footer .media a:hover{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    nav{
+        width: 500px;
     }
 
 }
