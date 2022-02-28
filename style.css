@@ -157,14 +157,6 @@ body{
     font-size: 1.5rem;
 }
 
-#portfolio p {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 17px;
-    font-weight: lighter;
-    font-style: italic;
-    margin: 0;
-}
-
 #portfolio .name {
     padding-bottom: 20px;
 }
@@ -173,7 +165,7 @@ body{
     background-color: white;
     border: none;
     margin: 10px;
-    width: 50%;
+    width: 70%;
 }
 
 #portfolio .content {
@@ -225,23 +217,16 @@ body{
     height: 600px;   
     width: 100vw;
 }
-
 form{
     margin-top: 200px;
-
     text-align: center;
 }
-
 .contact{
-    text-align: center;
-    
+    text-align: center;    
 }
 .contact h1{
-    font-size: 33px;
- 
+    font-size: 33px; 
 }
-
-
 .form-container{
     text-align: center;
     display: grid;
@@ -251,62 +236,117 @@ form{
     align-items: center;    
     margin-right: 48px;
 }
-
 .asel-container button{
     margin-top: 80px;
 }
 footer{
     background-color: white;
-
 }
 .asel-container ul li{
     list-style-type: none;
+    margin: 0 10px;
 }
-
-.media{
- display: flex;
- flex-direction: row;
- justify-content: center;
-}
-.asel-container svg{
-margin-right: 11px;
-margin-bottom: 10px;
-
-  
-}
-
 .copyright{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    font-size: 14px;
-    padding-bottom: 10px;
-  
+    padding: 20px 0;
+    font-size: 14px; 
 }
-.copyright ul{
-    margin-left: 0;
+.copyright .media {
+    margin: 15px 0;
+}
+.copyright ul, .copyright p{
+    display: flex;
+    margin: 0;
     padding-left: 0;
-
 }
-
-
 .underline{
     text-decoration: none;
-
 }
 .underline:hover{
     text-decoration: underline;
-    }
-
+}
 /* Asel's CSS END */
 
 
 
 
 
+<<<<<<< HEAD
+/* Meylis Section Starts Here */
+#team-container {
+    padding: 6rem 0;
+    background-color: rgba(248, 248, 255);
+    color: #212529;
+    text-align: center;
+}
+#team-container h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#team-container h2, #portfolio p {
+    color: #6c757d;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+}
+#team-container .team-card {
+    margin: 50px;
+}
+#team-container .team-card h3{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+#team-container p {
+    color: #6c757d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+#team-container .team-profiles img{
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#team-container .icon-bar a,
+footer .media a{
+    color: rgba(52,58,64, 0.9);
+}
+#team-container .icon-bar a:hover,
+footer .media a:hover{
+    color: rgba(52,58,64, 1);
+}
+.facebook {
+    margin: 0 20px;
+}
+
+#team-container .team-footer {
+    padding: 0 20%;
+}
+#sponsors-container {
+    padding: 40px 0 40px 0;
+    display: grid;
+    justify-content: center;
+}
+#sponsors-container a {
+    margin: 20px;
+    justify-self: center;
+}
+/* Meylis Section Ends Here */
+
+
+
+@media (min-width: 577px) {
+=======
 @media (min-width: 567px) {
+>>>>>>> main
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -314,7 +354,13 @@ margin-bottom: 10px;
     }
     #portfolio .card {
         width: 40%;
-    } 
+    }
+
+    #sponsors-container {
+        grid-template-columns: 250px 250px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -332,6 +378,8 @@ margin-bottom: 10px;
   
 
     }
+<<<<<<< HEAD
+=======
     .asel-container ul li{
         list-style-type: none;
         display: inline;
@@ -353,6 +401,7 @@ margin-bottom: 10px;
 
 
     }
+>>>>>>> main
     .services{
       height: auto;
       width: 100%;
@@ -366,6 +415,22 @@ margin-bottom: 10px;
         align-items: center;
         width: 100%;
     }
+<<<<<<< HEAD
+    .ecommerce,.responsive, .web{
+        padding: 0 20px;
+    }
+    #sponsors-container {
+        grid-template-columns: 200px 200px 200px 200px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1000px){
+    /* body{
+        background-color: rgb(4, 4, 4);
+    } */
+=======
 
     .ecommerce ,.responsive, .web{
         padding: 0 20px;
@@ -375,6 +440,7 @@ margin-bottom: 10px;
 
 }
 @media (min-width: 1000px){
+>>>>>>> main
     .ulianaContainer{
         width: 100vw;
         margin: 0 auto;
@@ -391,12 +457,16 @@ margin-bottom: 10px;
     }
     .services .icons{
         width: 90%;
+<<<<<<< HEAD
+    }
+=======
      }
 }  
 
     
 
 @media (min-width: 1200px) {
+>>>>>>> main
     #portfolio .gallery {
         flex-direction: row;
         flex-wrap: wrap;
@@ -409,6 +479,31 @@ margin-bottom: 10px;
     }
     .services .icons{
         width:75%;
+<<<<<<< HEAD
+    }
+    #team-container .team-card {
+        display: inline-block;
+    }
+    #team-container .team-card:nth-child(2) {
+        margin: 0 10%;
+    }
+    #team-container .team-footer {
+        padding: 0 30%;
+    }
+    #sponsors-container {
+        grid-template-columns: 250px 250px 250px 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+=======
+>>>>>>> main
 
      }
 }
