@@ -29,10 +29,10 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
 }
-.ulianaContainer nav{
+ nav{
     position: fixed;
     z-index: 2;
-    width: 100%;
+    width:100%;
     display: flex;
     height: 35px;    
 
@@ -40,7 +40,7 @@ body{
 .ulianaContainer ul{
     color: white;
     display: flex;
-    width: 870px;
+    width: 100%;
     justify-content:flex-end;
     font-size: 10px;
     margin-right: 50px;
@@ -272,6 +272,9 @@ footer{
 /* Asel's CSS END */
 
 
+
+
+
 /* Meylis Section Starts Here */
 #team-container {
     padding: 6rem 0;
@@ -436,13 +439,16 @@ footer .media a:hover{
         width: 100vw;
         margin: 0 auto;
         background-size: cover;
-    }
-    nav{
-        width: 700px;
         display: flex;
-        justify-content: space-around;
-  
+        justify-content: center;
     }
+    
+    nav{
+        width: 900px !important;
+      
+    }
+ 
+
     .form-container{
         grid-template-columns: 400px 400px;
         grid-template-rows: 20px 20px 20px 20px;
@@ -459,6 +465,14 @@ footer .media a:hover{
     
 
 @media (min-width: 1200px) {
+    .ulianaContainer{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        width: 900px !important;
+      
+    }
 
     #portfolio .gallery {
         flex-direction: row;
@@ -493,9 +507,6 @@ footer .media a:hover{
         flex-direction: row;
         justify-content: space-around;
     }
-    nav{
-        width: 500px;
-    }
-
+   
 }
 
