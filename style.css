@@ -17,8 +17,13 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 20px;
+<<<<<<< HEAD
     overflow: auto; 
     margin-bottom: 10px;  
+=======
+    margin-bottom: 10px;
+  
+>>>>>>> d81ec356e8ac8bc6a36d1ebd675ef17acfdd74ee
 }
 .ulianaContainer nav h4{
     padding-top: 5px;
