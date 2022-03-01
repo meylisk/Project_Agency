@@ -270,6 +270,7 @@ form input{
     font-size: 17px;
     font-weight: bold;
     padding: 15px;
+    border-radius: 6px;
 }
 
 footer ul li{
