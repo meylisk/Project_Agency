@@ -13,7 +13,7 @@ body{
 }
 .ulianaContainer{
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
     object-fit: cover;
     background-position: top center;
@@ -110,8 +110,8 @@ body{
 
 } 
 .services svg{
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
   
 }
 .services h3{
@@ -216,7 +216,13 @@ body{
     height: 700px;   
     width: 100vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 
 .contact-us-head{
     text-align: center;
@@ -264,13 +270,14 @@ form input{
 }
 
 .asel-container button{
-    width: 35%;
-    background-color:rgb(247, 211, 6);
+    height: 50px;
+    width: 170px;
+    border-radius: 2px;
+    background-color: rgb(244, 204, 47);
+    border: 1px solid rgb(230, 185, 4);
+    font-size: 15px;
+    font-weight: bolder;
     color: white;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 6px;
 }
 
 footer ul li{
@@ -398,9 +405,12 @@ footer .media a:hover{
     
     .services{
       height: auto;
-      width: 100%;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
       
     }
+
     .services .icons{
         margin: auto;
         display: flex;
@@ -411,12 +421,26 @@ footer .media a:hover{
     }
 
     .ecommerce,.responsive, .web{
-        padding: 0 20px;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        padding: 0 0px;
     }
     #sponsors-container {
         grid-template-columns: 200px 200px 200px 200px;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .contact-us button{
+        width: 180px !important;
     }
 
     form{
@@ -434,10 +458,6 @@ footer .media a:hover{
         height: 170px;
     }
 
-    .asel-container button{
-        width: 25%;
-        
-    }
 }
 
 @media (min-width: 1000px){
@@ -492,10 +512,7 @@ footer .media a:hover{
         margin-top: 10px;
     }
 
-    .asel-container button{
-        width: 20%;
-        padding: 20px;
-    }
+  
     
     .copyright{
         display: flex;
