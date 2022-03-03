@@ -13,14 +13,25 @@ body{
 }
 .ulianaContainer{
     width: 100vw;
-    height: 45vh;
+    height: 32vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
     object-fit: cover;
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 20px;
     margin-bottom: 10px;
+
   
+}
+.ulianaContainer header h1{
+    font-size: 40px !important;
+    padding: 0 50px !important;
+    margin-bottom: 10px !important;
+    
+}
+.ulianaContainer header h4{
+    font-size: 18px !important;
+    margin-bottom: 5px !important;
 }
 .ulianaContainer nav h4{
     padding-top: 5px;
@@ -57,7 +68,7 @@ body{
     color: rgb(230, 204, 4);
 }
 .ulianaContainer header{
-    margin-top: 45px;
+    margin-top: 36px;
     height: 358px;
     text-align: center;
     display: flex;
@@ -102,11 +113,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .services .icons{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 
 } 
 .services svg{
@@ -116,7 +129,8 @@ body{
 }
 .services h3{
     font-weight: bolder;
-    margin-top: 30px;
+    font-size: 29px;
+    margin-top: 50px;
 }
 .services h5{
    margin-top: 20px;
@@ -125,9 +139,14 @@ body{
 .services .italic{
     font-style: italic;
     font-size: small;
+    margin-bottom: 30px;
+    margin-top: 15px;
 
 }
-
+.services p{
+    font-size: 12px;
+    color: #6c6d6f;
+}
 /* start section portfolio */
 #portfolio {
     background-color: rgba(248, 248, 255);
@@ -207,6 +226,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
+  
 }
 .contact-us{
     background-image: url("https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -230,7 +250,8 @@ body{
 }
 .contact-us-head h1{
     color: white;
-    font-size: 38px;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 form input, textarea, form button {
     border-radius: 6px;
@@ -256,6 +277,7 @@ form textarea{
     color: rgb(192, 188, 188); 
     font-weight: bold; 
     font-family: Arial;
+    padding-bottom: 20px;
 }
 form input{
     padding: 20px ;
@@ -394,14 +416,22 @@ footer .media a:hover{
 }
 
 @media (min-width: 768px) {
-    #portfolio .gallery {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+    .ulianaContainer header h1{
+        font-size: 55px !important;
+        font-weight: bolder;
+        margin-bottom: 40px !important;
+        
     }
-    #portfolio .card {
-        width: 35%;
-    } 
+    .ulianaContainer header h4{
+        font-size: 28px !important; 
+        margin-bottom: 25px !important;
+    }
+    .ulianaContainer header{
+       margin-top: 100px;
+    }
+    .ulianaContainer {
+        height: 45vh;
+    }
     
     .services{
       height: auto;
@@ -426,6 +456,15 @@ footer .media a:hover{
         width: 25%;
         padding: 0 0px;
     }
+    #portfolio .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #portfolio .card {
+        width: 35%;
+    } 
+
     #sponsors-container {
         grid-template-columns: 200px 200px 200px 200px;
         justify-content: center;
