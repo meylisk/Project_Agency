@@ -232,7 +232,7 @@ body{
 
 /* Asel's CSS Start*/
 /* Contact us & Footer */
-.asel-container{
+#asel-container{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
@@ -301,7 +301,7 @@ form input{
     padding: 5px;
 }
 
-.asel-container button{
+#asel-container button{
     height: 50px;
     width: 170px;
     border-radius: 2px;
@@ -655,7 +655,7 @@ footer .media a:hover{
     form textarea{
         width: 500px;
     }
-    .asel-container button{
+    #asel-container button{
         width: 15%;
         text-align: center;
     }
